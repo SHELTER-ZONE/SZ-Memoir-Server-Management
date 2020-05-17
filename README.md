@@ -1,1 +1,0 @@
-# SZ-Memoir-Server-Management
