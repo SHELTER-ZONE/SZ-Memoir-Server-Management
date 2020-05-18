@@ -25,6 +25,7 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
+                    '/ServerManagement/server_types',
                     '/ServerManagement/core_value',
                     '/ServerManagement/members_management',
                     '/ServerManagement/role_management',
