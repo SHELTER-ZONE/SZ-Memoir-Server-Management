@@ -20,18 +20,22 @@ module.exports = {
                 ]
             },
             {
-                title:'Server Management',
-                path:'/ServerManagement/server_management',
-                collapsable: false,
-                sidebarDepth: 1,
+                title: '成員管理',
+                path: '/MembersManagement/',
+                collapsable: true,
                 children: [
-                    '/ServerManagement/server_types',
-                    '/ServerManagement/core_value',
-                    '/ServerManagement/members_management',
-                    '/ServerManagement/role_management',
-                    '/ServerManagement/channels_management',
+                    '/MembersManagement/gist1.md'
                 ]
             },
+            {
+                title: '頻道管理',
+                path: '/ChannelsManagement/',
+                collapsable: true,
+                children: [
+                    '/ChannelsManagement/channels_category.md'
+                ]
+            },
+
         ],
 
         //  頂部導航欄
