@@ -14,9 +14,15 @@ module.exports = {
                 title:'SZ Memoir',
                 path:'/Memoir/memoir',
                 collapsable: false,
-                sidebarDepth: 1,
                 children: [
                     '/Memoir/core_value',
+                ]
+            },
+            {
+                title: '群主指南',
+                path: '/ServerHostor/',
+                collapsable: true,
+                children: [
                 ]
             },
             {
@@ -24,7 +30,8 @@ module.exports = {
                 path: '/MembersManagement/',
                 collapsable: true,
                 children: [
-                    '/MembersManagement/gist1.md'
+                    '/MembersManagement/gist1.md',
+                    '/MembersManagement/admin.md'
                 ]
             },
             {
@@ -32,7 +39,8 @@ module.exports = {
                 path: '/ChannelsManagement/',
                 collapsable: true,
                 children: [
-                    '/ChannelsManagement/channels_category.md'
+                    '/ChannelsManagement/channels_category.md',
+                    '/ChannelsManagement/channels_content.md',
                 ]
             },
 
