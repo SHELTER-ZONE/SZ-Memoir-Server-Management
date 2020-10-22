@@ -13,7 +13,7 @@ module.exports = {
             {
                 title:'SZ Memoir',
                 path:'/Memoir/memoir',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '/Memoir/core_value',
                 ]
@@ -41,6 +41,17 @@ module.exports = {
                 children: [
                     '/ChannelsManagement/channels_category.md',
                     '/ChannelsManagement/channels_content.md',
+                ]
+            },
+            {
+                title: '經營模式',
+                path: '/BusinessModel/',
+                collapsable: true,
+                children: [
+                    '/BusinessModel/autocratic.md',
+                    '/BusinessModel/decentralization.md',
+                    '/BusinessModel/organization.md',
+                    '/BusinessModel/community.md',
                 ]
             },
 
